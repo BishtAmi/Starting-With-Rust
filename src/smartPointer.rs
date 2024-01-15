@@ -11,6 +11,8 @@ fn stack_only(b: i32)-> i32{
 }
 fn stack_and_heap() -> i32
 {
+
+    // Declaration of SmartPointer(Deallocates Heap Automatically)  in Rust
     let e=Box::new(7);
     return *e;
 }
